@@ -23,7 +23,7 @@ function App() {
        </div>
         <button type='submit'>Submit</button>
     </form>
-    {flag?(<p>Full Name:{first} {last}</p>):""}
+    {flag?(<p>Full Name: {first} {last}</p>):""}
     </>
   )
 }
